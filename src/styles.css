@@ -9,11 +9,12 @@
 }
 
 body {
-  margin: auto;
+  margin: 0 auto;
   padding: 0 2rem;
-  width: 1242px;
+  max-width: 1288px;
   background-color: #f5f6f9;
   color: #262b35;
+  width: 100%;
 }
 
 input {
@@ -65,7 +66,13 @@ input::placeholder {
 .sud00 {
   width: 34vw;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .sud00 {
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 767px) {
   .sud00 {
     width: 90vw;
   }
