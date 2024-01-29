@@ -9,14 +9,26 @@
 }
 
 body {
-  margin: auto !important;
-  padding: 0 2rem;
-  max-width: 1288px;
-  width: 100%;
   background-color: #f5f6f9;
   color: #262b35;
 }
 
+main {
+  margin: auto !important;
+  padding: 0 2rem;
+  max-width: 1288px;
+  width: 100%;
+}
+
+.w-78 {
+  width: 78%;
+}
+.h-p-d01 {
+  margin: auto;
+  padding: 0 3rem;
+  max-width: 1252px;
+  width: 100%;
+}
 input {
   width: 100%;
   height: 48px;
@@ -24,6 +36,18 @@ input {
   padding: 12px;
   border: 1px solid #cdcfd9;
   background-color: #ffffff;
+}
+
+.text-hover-org:hover{
+  color: #fcb700 !important;
+}
+
+.bg-hover:hover{
+  opacity: 80%;
+}
+
+.cursor{
+  cursor: pointer;
 }
 
 input::placeholder {
@@ -72,7 +96,6 @@ input::placeholder {
   .sud00 {
     width: 90vw;
   }
-
 }
 @media screen and (max-width: 767px) {
   .sud00 {
