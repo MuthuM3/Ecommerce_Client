@@ -1,0 +1,30 @@
+.pcr-p{
+  width: 48px;
+  height: 48px;
+  border: 2px solid #262b35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pcr-s{
+  border: 1px solid;
+  border-radius: 50%;
+}
+.p-clr-b{
+  color: #262b35;
+}
+.b-clr-b{
+  border-color: #262b35;
+}
+.p-clr-r{
+  color: #73de89;
+}
+.b-clr-r{
+  border-color: #73de89;
+}
+.p-clr-p{
+  color: #c264cc;
+}
+.b-clr-p{
+  border-color: #c264cc;
+}
