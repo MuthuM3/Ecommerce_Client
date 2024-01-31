@@ -6,6 +6,15 @@
   align-items: center;
   justify-content: center;
 }
+.pr-p{
+  width: 68px;
+  height: 48px;
+  border: 2px solid #262b35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 0;
+}
 .pcr-s{
   border: 1px solid;
   border-radius: 50%;
