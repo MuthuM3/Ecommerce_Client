@@ -1,19 +1,21 @@
 .pcr-p{
   width: 48px;
   height: 48px;
-  border: 2px solid #262b35;
+  border: 1px solid #262b35;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 4px;
 }
 .pr-p{
   width: 68px;
   height: 48px;
-  border: 2px solid #262b35;
+  border: 1px solid #262b35;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 4px 0;
+  border-radius: 4px;
 }
 .pcr-s{
   border: 1px solid;
@@ -36,4 +38,24 @@
 }
 .b-clr-p{
   border-color: #c264cc;
+}
+.pd-mi-d01{
+  width: 100%;
+  max-width: 520px;
+  height: 520px;
+  background-color: white;
+}
+.pd-m-img{
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  margin: 0 auto;
+}
+.ps-i{
+  width: 60px;
+  height: 60px;
+}
+.pdsib-d{
+  border: 1px solid #000;
+  border-radius: 8px;
 }
