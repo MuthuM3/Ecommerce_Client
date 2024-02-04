@@ -98,6 +98,14 @@ select{
   background-color: #f5f6f9;
 }
 
+input[type='checkbox']{
+  width: auto;
+  height: 2px !important;
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .sud00 {
     width: 90vw;
